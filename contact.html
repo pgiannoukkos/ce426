@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<!-- Meta tags -->
+		<meta charset="utf-8">
+		<meta name="description" content="Static HTML and CSS Personal Website">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Panayiotis Yiannoukkos">
+
+		<!-- Links -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<script src="https://kit.fontawesome.com/7e05071fa4.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="./css/style.css">
+
+		<title>Personal Website | Contact</title>
+	</head>
+	<body>
+		<div class="container">
+			<!-- Header -->
+			<header>
+				<div class="nav-bar">
+					<ul>
+						<li><a href="./index.html">Home</a></li>
+						<li id="active"><a href="./contact.html">Contact</a></li>
+					</ul>
+				</div>
+			</header>
+
+			<div class="jumbotron">
+				<h1>Send me an E-mail</h1>
+				<form action="mailto:p.yiannoukkos@outlook.com" method="post" enctype="text/plain">
+					Name: <input type="text" name="name" class="form-control" style="width: 40%"><br>
+					E-mail: <input type="email" name="mail" class="form-control" style="width: 40%"><br>
+					Comment: <textarea class="form-control" rows="5"></textarea><br>
+					<input type="submit" class="btn btn-secondary" value="Send">
+					<input type="reset" class="btn btn-secondary" value="Reset">
+				</form>
+
+				<div class="social-icons text-center">
+					<hr style="background: rgba(255, 255, 255, 0.4)">
+					<p>Also feel free to contact me on social media</p>
+					<ul>
+						<li><a href="https://www.facebook.com/panayiotis.yiannoukkos" target="_blank"><i class="fab fa-facebook"></i></a></li>
+						<li><a href="https://www.instagram.com/p.yiannoukkos" target="_blank"><i class="fab fa-instagram"></i></a></li>
+						<li><a href="https://github.com/pgiannoukkos" target="_blank"><i class="fab fa-github"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/pyiannoukkos/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+					</ul>
+					<hr style="background: rgba(255, 255, 255, 0.4)">
+				</div>
+			</div>
+
+			<!-- Footer -->
+			<footer class="text-center">
+				<hr style="background: rgba(255, 255, 255, 0.4)">
+				<p>Written by Panayiotis Yiannoukkos</p>
+			</footer>
+		</div>
+	</body>
+</html>
