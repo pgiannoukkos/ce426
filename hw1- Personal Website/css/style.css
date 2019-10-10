@@ -75,6 +75,10 @@ h1#title {
 	margin: 0 5px 0 5px;
 }
 
+.social-icons ul li a {
+	text-decoration: none;
+}
+
 .social-icons .fa-facebook:hover {
 	color: #3b5998;
 }
