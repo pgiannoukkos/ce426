@@ -18,6 +18,10 @@ header {
 	height: 8vh;
 }
 
+footer p {
+	font-size: 14px;
+}
+
 .nav-bar ul {
 	float: right;
 	list-style-type: none;
