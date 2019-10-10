@@ -1,0 +1,96 @@
+/* ------------------- General Settings ------------------ */
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Century Gothic', sans-serif;
+	color: #fff;
+}
+
+body {
+	background-image: url("../imgs/bg.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+header {
+	height: 8vh;
+}
+
+footer p {
+	font-size: 14px;
+}
+
+.nav-bar ul {
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+.nav-bar ul li {
+	display: inline-block;
+}
+
+.nav-bar ul li a {
+	text-decoration: none;
+	color: #000;
+	padding: 5px 20px;
+	border: 1px solid #000;
+	transition: 0.6s ease;
+}
+
+.nav-bar ul li a:hover {
+	background-color: rgba(0, 0, 0, 0.4);
+	color: #fff;
+}
+
+.nav-bar ul li#active a {
+	background-color: rgba(0, 0, 0, 0.4);
+	color: #fff;
+}
+
+.jumbotron {
+	background: rgba(0, 0, 0, 0.4);
+}
+/* ------------------------------------------------------- */
+
+h1#title {
+	margin: 30px 0 30px 0;
+}
+
+/* ----------- Social Media Section ----------- */
+.social-icons {
+	margin-top: 50px;
+}
+
+.social-icons ul {
+	list-style-type: none;
+}
+
+.social-icons ul li {
+	display: inline;
+	color: #495057;
+	font-size: 2em;
+	margin: 0 5px 0 5px;
+}
+
+.social-icons .fa-facebook:hover {
+	color: #3b5998;
+}
+
+.social-icons .fa-instagram:hover {
+	background: -webkit-radial-gradient(33% 100% circle, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+	background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.social-icons .fa-github:hover {
+	color: #333;
+}
+
+.social-icons .fa-linkedin:hover {
+	color: #00a0dc;
+}
+/* -------------------------------------------- */
