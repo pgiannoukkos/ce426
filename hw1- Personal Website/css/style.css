@@ -22,6 +22,10 @@ footer p {
 	font-size: 14px;
 }
 
+hr {
+	background: rgba(255, 255, 255, 0.4);
+}
+
 .nav-bar ul {
 	float: right;
 	list-style-type: none;
@@ -57,6 +61,10 @@ footer p {
 
 h1#title {
 	margin: 30px 0 30px 0;
+}
+
+section {
+	text-align: justify;
 }
 
 /* ----------- Social Media Section ----------- */
