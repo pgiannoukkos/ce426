@@ -67,6 +67,10 @@ section {
 	text-align: justify;
 }
 
+section#education h3, section#education h5 {
+	text-decoration: underline;
+}
+
 /* ----------- Social Media Section ----------- */
 .social-icons {
 	margin-top: 50px;
