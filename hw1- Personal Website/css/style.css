@@ -91,6 +91,14 @@ section#skills .col-3 {
 	margin: 10px 0 0 20px;
 }
 
+section#projects .col-6{
+	margin-top: 20px;
+}
+
+section#projects ul {
+	margin: 10px 0 0 20px;
+}
+
 /* ----------- Social Media Section ----------- */
 .social-icons {
 	margin-top: 50px;
