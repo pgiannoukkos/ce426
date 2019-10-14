@@ -18,6 +18,10 @@ header {
 	height: 8vh;
 }
 
+h2 {
+	text-decoration: underline;
+}
+
 footer p {
 	font-size: 14px;
 }
@@ -68,7 +72,7 @@ section {
 }
 
 section#education {
-	margin-top: 30px;
+	margin-top: 20px;
 }
 
 section h3 {
@@ -76,8 +80,15 @@ section h3 {
 }
 
 section#education div {
-	margin: 30px;
-	margin-bottom: 0;
+	margin: 10px 0 0 20px;
+}
+
+section#skills {
+	margin-top: 20px;
+}
+
+section#skills .col-3 {
+	margin: 10px 0 0 20px;
 }
 
 /* ----------- Social Media Section ----------- */
